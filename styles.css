@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+      font-family: Roboto;
+  }
+
+  header h5{
+    background-color: #1CD1B0;
+    font-weight: bold;
+    font-size: 15px;
+    width: 1400px;
+    padding: 12px;
+}
+
+header h1{
+    background-color: #00669F;
+    font-weight: bold;
+    font-size: 40px;
+    width: 1400px;
+    position:static;
+    padding: 20px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+.verm, .vermas, .verm3{
+    color:#F3F3F3
+}
+
+
+.caja1, .caja2, .caja3{
+    width: 380px;
+	height: 620px;
+	padding: 5px;
+	margin: 5px;
+	position: relative;
+    background-color: #F3F3F3;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+/*BATMAN PRIMERA PARTE*/
+    
+.caja1{
+    right: 0px;
+    top: 240px;
+    left: 80px;
+    z-index: 6;
+}
+
+.fondoBatman{
+    position:relative;
+    bottom: 10px;
+    right:10px;
+    width: 380px;
+}
+
+.fotoBatman{
+    position:relative;
+    left:100px;
+    bottom: 80px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+.Corazon1{
+    position:relative;
+    bottom: 380px;
+    left:20px;
+    width: 50px;
+    height: 5   0px;
+}
+
+.TituloBatman1{
+    position:relative;
+    bottom: 120px;
+    left: 110px;
+    font-size:30px;
+    
+}
+
+.ParrafoBatman1{
+    position:relative;
+    bottom: 110px;
+    left:5px;
+}
+
+.VerMasBatman1{
+    position:relative;
+    bottom: 60px;
+    left: 110px;
+    padding: 15px 30px;
+    background-color: #00669F;
+
+}
+
+ /*HARLEY QUINN*/
+ .caja2{
+    right: 0px;
+    bottom: 385px;
+    left: 480px;
+    z-index: 6;
+}
+
+.fondoHarley{
+    position:relative;
+    bottom: 10px;
+    right:10px;
+    width: 380px;
+}
+
+.fotoHarley{
+    position:relative;
+    left:100px;
+    bottom: 80px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+.Corazon2{
+    position:relative;
+    bottom: 380px;
+    left:20px;
+    width: 50px;
+    height: 5   0px;
+}
+
+.TituloHarley{
+    position:relative;
+    bottom: 120px;
+    left: 70px;
+    font-size:30px;
+    
+}
+
+.parrafoHarley{
+    position:relative;
+    bottom: 115px;
+    left:1px;
+}
+
+.VerMasHarley{
+    position:relative;
+    bottom: 60px;
+    left: 110px;
+    padding: 15px 30px;
+    background-color: #00669F;
+
+}
+
+/*BATMAN SEGUNDA PARTE*/
+    
+.caja3{
+    right: 0px;
+    left: 880px;
+    bottom: 1010px;
+	z-index: 6;
+}
+
+.fondoBatman{
+    position:relative;
+    bottom: 10px;
+    right:10px;
+    width: 380px;
+}
+
+.fotoBatman{
+    position:relative;
+    left:100px;
+    bottom: 80px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+.Corazon3{
+    position:relative;
+    bottom: 380px;
+    left:20px;
+    width: 50px;
+    height: 5   0px;
+}
+
+.TituloBatman2{
+    position:relative;
+    bottom: 110px;
+    left: 110px;
+    font-size:30px;
+    
+}
+
+.ParrafoBatman2{
+    position:relative;
+    bottom: 100px;
+    left:5px;
+}
+
+.VerMasBatman2{
+    position:relative;
+    bottom: 50px;
+    left: 110px;
+    padding: 15px 30px;
+    background-color: #00669F;
+
+}
+
+footer{
+    position:absolute;
+    width: 1400px;
+    bottom: -600px;
+    background-color: #00669F;
+    color: #FFF9F9;
+    font-size: 16px;
+    padding: 20px;
+	margin: 10px;
+}
